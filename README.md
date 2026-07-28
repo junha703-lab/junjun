@@ -11,6 +11,6 @@ npm run dev
 
 ## 배포
 
-Vercel에서 이 저장소를 연결하고 Root Directory를 저장소 루트(`/`)로 설정합니다.
+Vercel과 GitHub 저장소가 연결되어 있어 `main` 브랜치의 새 커밋이 자동으로 배포됩니다.
 환경변수는 `.env.example`을 참고하세요. Supabase 테이블은 `supabase/schema.sql`을 SQL Editor에서 실행합니다.
 
